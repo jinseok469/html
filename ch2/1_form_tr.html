@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <h1>회원가입</h1>
+    <hr>
+    <form action="">
+        <table>
+            <tr>
+                <td width="100px"><span style="color: red;">*</span>아이디</td>
+                <td><input type="text"></td>
+                <td><button type="button">아이디중복체크</button></td>
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <td width="100px"><span style="color: red;">*</span>비밀번호</td>
+                <td><input type="password"></td>
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <td width="100px"><span style="color: red;">*</span>비밀번호확인</td>
+                <td><input type="password"></td>
+            </tr>
+        </table>
+        <b style="color: red;">비밀번호는 10~20자 영문자로 시작하고 숫자 또는 영문 대 소문자로 조합된 문자열이어야 합니다.
+            ex)1111,aaaa,AAAA,**** 등 등록 불가 합니다.</b><br>
+        <b style="color: gray;">비밀번호를 변경하실 경우에는 비밀번호란과 비밀번호확인란에 변경하시는 번호를 새로 입력하시면 변경됩니다.</b>
+        <hr>
+        <table>
+            <tr>
+                <td width="100px"><span style="color: red;">*</span>이름</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <td width="100px"><span style="color: red;">*</span>생년월일</td>
+                <td><input type="date"></td>
+                <td>&nbsp;&nbsp;<input type="radio" name="team">양력</td>
+                <td>&nbsp;&nbsp;<input type="radio" name="team">음력</td>
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <td width="100px"><span style="color: red;">*</span>이메일</td>
+                <td><input type="email"></td>
+                <td><button type="button">메일중복확인</button></td>
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <td width="100px" rowspan="2">주소</td>
+                <td><input type="text" size="10px">
+                    &nbsp;(&nbsp;<input type="text" size="5px">&nbsp;-&nbsp;
+                    <input type=" text" size="5px">&nbsp;)&nbsp;
+                    <button type="button">우편번호검색</button>
+                </td>
+            </tr>
+            <td><input type="text" size="30">
+                <input type="text" size="30">
+            </td>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <td width="100px"><span style="color: red;">*</span>핸드폰</td>
+                <td><input type="text" size="5">&nbsp;-&nbsp;</td>
+                <td><input type="text" size="5">&nbsp;-&nbsp;</td>
+                <td><input type="text" size="5"></td>
+                <td>&nbsp;<input type="checkbox"></td>
+                <td style="color: deepskyblue;">광고성 정보,이벤트SMS수신</td>
+            </tr>
+        </table>
+        <b style="color: orange;">※ 주문 관련 정보 등 주요 안내 사항은 수신 동의 여부에 관계없이 자동 발송됩니다.</b>
+        <hr>
+        <table>
+            <tr>
+                <td width="100px"><span style="color: red;">*</span>전화번호</td>
+                <td><input type="text" size="5">&nbsp;-&nbsp;</td>
+                <td><input type="text" size="5">&nbsp;-&nbsp;</td>
+                <td><input type="text" size="5"></td>
+            </tr>
+        </table>
+        <hr>
+    </form>
+</body>
+
+</html>
