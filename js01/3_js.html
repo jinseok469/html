@@ -15,18 +15,62 @@
         //     alert("a가 작다")
         // }
 
-        var engScore= 99;
-        if(engScore >= 90){
-            alert("A");
-        }else if(engScore >= 80 && engScore < 90){
-            alert("B");
-        }else if(engScore >= 70 && engScore < 80){
-            alert("C");
-        }else if(engScore >= 60 && engScore < 70){
-            alert("D");
-        }else if(engScore <= 50){
-            alert("F");
+        // var engScore= 99;
+        // if(engScore >= 90){
+        //     if(engScore >= 97 && engScore <= 100){
+        //         alert("A+");
+        //     }else if(engScore >= 94 && engScore <= 96){
+        //         alert("A0");
+        //     }else{
+        //         alert("A-");
+        //     }
+        // }else if(engScore >= 80 && engScore < 90){
+        //     if(engScore >= 87){
+        //         alert("B+");
+        //     }else if(engScore >= 84 && engScore <= 86){
+        //         alert("B0");
+        //     }else if(engScore >= 80 && engScore <= 83){
+        //         alert("B-");
+        //     }
+        // }else if(engScore >= 70 && engScore < 80){
+        //     if(engScore >= 77){
+        //         alert("C+");
+        //     }else if(engScore >= 74 && engScore <= 76){
+        //         alert("C0");
+        //     }else if(engScore >= 70 && engScore <= 73){
+        //         alert("C-");
+        //     }
+        // }else if(engScore >= 60 && engScore < 70){
+        //     if(engScore >= 67){
+        //         alert("D+");
+        //     }else if(engScore >= 64 && engScore <= 66){
+        //         alert("D0");
+        //     }else if(engScore >= 60 && engScore <= 63){
+        //         alert("D-");
+        //     }
+        // }else if(engScore <= 50){
+        //     alert("F");
+        // }
+        var x = 0;
+        var y = 0;
+        if(x == 0 && y == 0){
+            alert("원점에 있습니다");
+        }else {
+            if(x > 0){
+                if(y > 0){
+                     alert("1 사분면 입니다");
+                }else{
+                     alert("4 사분면 입니다");
+                }
+            }else if(x < 0){
+                if(y > 0){
+                       alert("2 사분면 입니다")
+                }else{
+                    alert("3 사분면 입니다")
+                 }
+            }
         }
+   
 
     </script>
 </body>
