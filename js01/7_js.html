@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // 두 정수를 주고 몇 사 분면인지 확인
+        function kkkk(x,y){
+        if(x == 0 && y == 0){
+            return 0;
+        }else if(x == 0 && y != 0){
+            alert("y 축 입니다")
+        }else if(y == 0 && x != 0){
+            alert("x 축 입니다")       
+        }else {
+            if(x > 0){
+                if(y > 0){
+                     return 1;
+                }else{
+                     return 4;
+                }
+            }else if(x < 0){
+                if(y > 0){
+                       return 2;
+                }else{
+                    return 3;
+                 }
+            }
+        }
+        }
+
+        var c = kkkk(1,2);
+        alert(c + " 사분면에 위치 합니다")
+    </script>
+</body>
+</html>
